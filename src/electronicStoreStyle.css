@@ -1,0 +1,41 @@
+.root {
+    -fx-background-color: #F4F4F4;
+    -fx-text-fill: blue;
+}
+
+.button{
+     -fx-pref-width: 130px;
+     -fx-pref-height: 40px;
+ }
+
+.text-field{
+    -fx-pref-width: 80px;
+    -fx-background-color: #DCD0C0;
+}
+
+/*
+Setting the width to values smaller than the vbox that the list view
+is contained in will cause the list view to use the width of its parent
+*/
+.list-view{
+    -fx-pref-width: 10px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #DCD0C0;
+}
+
+.list-cell{
+    -fx-background-color: #DCD0C0;
+}
+
+.list-cell:filled:selected{
+    -fx-background-color: #AFD275;
+}
+
+.title{
+    -fx-font-size: 16px;
+}
+
+.big-list{
+    -fx-pref-height: 270px;
+    -fx-pref-width: 200px;
+}
