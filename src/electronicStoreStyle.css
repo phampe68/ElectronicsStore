@@ -1,11 +1,15 @@
 .root {
-    -fx-background-color: #F4F4F4;
+    -fx-background-color: #F3F3F3;
     -fx-text-fill: blue;
 }
 
 .button{
      -fx-pref-width: 130px;
      -fx-pref-height: 40px;
+     -fx-border-color: black;
+     -fx-background-color: #F3F3F3;
+     -fx-font-size: 12px;
+     -fx-text-fill: #3C1874;
  }
 
 .text-field{
