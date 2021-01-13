@@ -24,7 +24,16 @@ Features:
 * Each product has its own set of fields (ex: laptop -> CPU speed, RAM, Storage, etc)
 * Products can be added/removed to a cart. The stock of the items, as well as the cart's price is calculated dynamically.
 
-## The Inheritance Model:
+Store with nothing in cart and no purchases:
+![ElectronicsStoreScreenShot1](https://user-images.githubusercontent.com/38918965/104411065-b9945380-5537-11eb-882f-0d861c8c4e1c.png)
+
+Store with some items in cart.
+![ElectronicsStoreScreenShot2](https://user-images.githubusercontent.com/38918965/104411146-e7799800-5537-11eb-8d44-b72b739f4af4.png)
+
+Store with these items purchased:
+![image](https://user-images.githubusercontent.com/38918965/104411294-1d1e8100-5538-11eb-8073-2962a3ed75c3.png)
+
+## A Brief Overview of the Inheritance Model:
 The electronics store has 4 main products: Fridge, Toaster Oven, Laptop, and Desktop. The products are organized in an inheritance model as follows:
 1. All products share the fields for price, current stock, sold stock, and shelf stock. Therefore all products are subclasses of the Product Class.
 2. The Fridge and ToasterOven share fields for wattage, and color, so they are subclasses of the Applicance class.
